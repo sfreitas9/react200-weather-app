@@ -15,4 +15,9 @@ To test:
 npm run build
 npm test
 ```
+---
+
+## Created by:
+Sherry Freitas
+sherry.freitas@gmail.com
 
