@@ -17,7 +17,7 @@ app.get('/weather/:city', (req, res) => {
     .then((response) => {
       res.status(200).send(response.data);
     })
-    .catch((err) => {
+    .catch(() => {
       res.status(404).send('error');
     });
 });
